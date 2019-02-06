@@ -1,0 +1,17 @@
+.container1
+{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    z-index: 1;
+}
+
+.container2
+{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    z-index: 0;
+}
