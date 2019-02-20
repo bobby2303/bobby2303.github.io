@@ -21,12 +21,25 @@ img
     height: 50%;
 }
 
+img:hover
+{
+    width: 100%;
+    height: 100%;
+}
+
 ol li
 {
     color:red;
 }
 
+ol li:hover
+{
+    color:blue;
+}
+
 /*
+
+STATIC:
 
 position: absolute, fixed, relative, static
 z index: 0/1/2... (0 is bottom)
@@ -37,6 +50,11 @@ Object types:
 img - specify image details
 ol li - specify ordered list item details
     just using 'ol' or 'ul' is not proper syntax
+
+NON STATIC:
+
+hover effect - is a change of object when you put a mouse arrow over it
+
 
 */
 
