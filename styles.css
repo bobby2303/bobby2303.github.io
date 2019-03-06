@@ -1,43 +1,30 @@
-.container1
+p.mytext
 {
-    position:static;  
-    width: 100%;
+    color:yellow;
 }
 
-.container2
+h3, h4
 {
-   position:absolute;
+    color:yellow;
 }
 
-.container3
-{
-    position:absolute;
-    right:50%;
-}
-
-img
-{
-    width: 50%;
-    height: 50%;
-}
-
-img:hover
-{
-    width: 100%;
-    height: 100%;
-}
-
-ol li
-{
-    color:red;
-}
-
-ol li:hover
+.bluetext
 {
     color:blue;
 }
 
+div h2
+{
+    color:red;
+}
+
+
+
+
+
 /*
+
+
 
 STATIC:
 
@@ -50,10 +37,38 @@ Object types:
 img - specify image details
 ol li - specify ordered list item details
     just using 'ol' or 'ul' is not proper syntax
+h1 - heading 1, by default has bigger font than h2
+* - for all objects
+
+Grouping Declaration:
+We can also do commas for multiple objects:
+eg. h1,h2 { details }
 
 NON STATIC:
 
 hover effect - is a change of object when you put a mouse arrow over it
+
+Positioning:
+Block - Gap before and after the element (gap above and below). eg paragraph
+    display: block;
+    eg: <div>
+        <p>
+        <ol>
+
+Inline - side by side
+     display: inline;
+    eg: <img>
+        <button>
+
+For specific changes, we can make our own class in CSS, 
+    eg: .simpletext { details }
+    in HTML we just use, eg: <p class="simpletext"> TEXT </p>
+
+    We can also specify classes for specific types
+    eg: h1.simpletext
+    This will apply simpletext for only h1 files
+
+    We can also do div h1 {}
 
 
 */
