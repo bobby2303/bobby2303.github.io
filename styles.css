@@ -1,17 +1,28 @@
-*
+a:link
+{
+    color:black;
+}
+
+a:visited
+{
+    color:red;
+}
+
+a:hover:link
+{
+    color:green;
+}
+
+a:hover:visited
 {
     color:blue;
 }
 
-div p
+input:focus
 {
-    color:yellow;
+    background:silver;
 }
 
-.myclass
-{
-    color:red;
-}
 
 
 
@@ -36,7 +47,7 @@ h1 - heading 1, by default has bigger font than h2
 * - for all objects
 
 The ordering of priority for CSS is: the more specific, the more powerful
-    eg. .myclass > div p > *
+    eg. .myclass > div p > p > *
 
 Grouping Declaration:
 We can also do commas for multiple objects:
@@ -67,6 +78,18 @@ For specific changes, we can make our own class in CSS,
     This will apply simpletext for only h1 files
 
     We can also do div h1 {}
+
+
+Pseudo class - used to define a special state of an element
+    link/visited - style visited and unvisited links differently
+    hover - style an element when a user mouse over it
+    Focus - style an element when it gets focus (eg textbox)
+
+
+    syntax:
+    element:pseudo-class
+    eg: a:hover
+        a:hover:visited
 
 
 */
