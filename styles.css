@@ -1,19 +1,14 @@
-p.mytext
-{
-    color:yellow;
-}
-
-h3, h4
-{
-    color:yellow;
-}
-
-.bluetext
+*
 {
     color:blue;
 }
 
-div h2
+div p
+{
+    color:yellow;
+}
+
+.myclass
 {
     color:red;
 }
@@ -22,9 +17,9 @@ div h2
 
 
 
+
+
 /*
-
-
 
 STATIC:
 
@@ -39,6 +34,9 @@ ol li - specify ordered list item details
     just using 'ol' or 'ul' is not proper syntax
 h1 - heading 1, by default has bigger font than h2
 * - for all objects
+
+The ordering of priority for CSS is: the more specific, the more powerful
+    eg. .myclass > div p > *
 
 Grouping Declaration:
 We can also do commas for multiple objects:
